@@ -6,28 +6,27 @@
 
 int max = 0;
 Console.WriteLine("Введите числ A");
-int numberA= Convert.ToInt32(Console.ReadLine());
+int numberA = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите числ B");
-int numberB= Convert.ToInt32(Console.ReadLine());
+int numberB = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите числ C");
-int numberC= Convert.ToInt32(Console.ReadLine());
+int numberC = Convert.ToInt32(Console.ReadLine());
 
 if (numberA > numberB)
 {
-    //Console.WriteLine("max="+numberA+);
-    max=numberA; 
+    max = numberA;
 }
-else 
+else
 {
-    max=numberB; 
+    max = numberB;
 }
 if (max > numberC)
 {
-    Console.WriteLine("max="+max);
+    Console.WriteLine("max=" + max);
 }
-else 
+else
 {
-    Console.WriteLine("max="+numberC);
+    Console.WriteLine("max=" + numberC);
 }
 
 
