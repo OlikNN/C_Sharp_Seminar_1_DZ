@@ -6,12 +6,7 @@
 Console.WriteLine("Введите число");
 int number = Convert.ToInt32(Console.ReadLine());
 
-for (int i = 1; i <= number; i += 1)
+for (int i = 0; i <= number; i += 2)
 {
-    int ostatok = i % 2;
-
-    if (ostatok == 0)
-    {
         Console.Write(i + " ");
-    }
 }
